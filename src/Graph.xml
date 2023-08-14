@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendixcn.native.graph.Graph" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Graph</name>
+    <description>My widget description</description>
+    <studioProCategory>Display</studioProCategory>
+    <studioCategory>Display</studioCategory>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <propertyGroup caption="General">
+                <property key="caption" type="textTemplate">
+                    <caption>Caption</caption>
+                    <description/>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Events">
+                <property key="onClick" type="action" required="false">
+                    <caption>On click</caption>
+                    <description/>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Common">
+                <systemProperty key="Name"/>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>

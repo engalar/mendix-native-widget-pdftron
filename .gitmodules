@@ -1,0 +1,6 @@
+[submodule "src/piw-native-utils-internal"]
+	path = src/piw-native-utils-internal
+	url = https://gitee.com/engalar/piw-native-utils-internal.git
+[submodule "src/piw-utils-internal"]
+	path = src/piw-utils-internal
+	url = https://gitee.com/engalar/piw-utils-internal.git
